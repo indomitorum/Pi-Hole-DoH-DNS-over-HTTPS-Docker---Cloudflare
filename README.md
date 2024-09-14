@@ -15,7 +15,8 @@ You should note the line "Using DNS over HTTPS (DoH)" flagged as Yes.
 #
 Docker-compose example:
 
-# More info at https://github.com/pi-hole/docker-pi-hole/ and https://docs.pi-hole.net/
+### More info at https://github.com/pi-hole/docker-pi-hole/ and https://docs.pi-hole.net/
+```
 services:
   pihole:
     image: indomitus/pihole-doh:latest
@@ -38,3 +39,4 @@ services:
       - WEBPASSWORD=<password>
       - PIHOLE_DNS_=127.0.0.1#5053
   
+```
